@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Matrices</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculadora de Matrices</h1>
+
+        <div class="matrix-input">
+            <label for="matrixA">Matriz A:</label>
+            <table>
+                <tbody id="matrixA">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="matrix-input">
+            <label for="matrixB">Matriz B:</label>
+            <table>
+                <tbody id="matrixB">
+                </tbody>
+            </table>
+        </div>
+
+        <button onclick="performOperation('add')">Sumar</button>
+        <button onclick="performOperation('subtract')">Restar</button>
+        <button onclick="performOperation('multiply')">Multiplicar</button>
+        <button onclick="performOperation('divide')">Dividir</button>
+
+        <div class="matrix-output">
+            <label for="result">Resultado:</label>
+            <table>
+                <tbody id="result">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

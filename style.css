@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.matrix-input table,
+.matrix-output table {
+    margin: 10px auto;
+}
+
+.matrix-input td,
+.matrix-output td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
